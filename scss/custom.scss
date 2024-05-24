@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+// override vars
+
+$primary: #282830;
+$secondary: #31313C;
+$tertiary: #6D6D7F;
+$light: #ffffff;
+$dark: #1C1C1F;
+$info : #EA5A11;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+// code...
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

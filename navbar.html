@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="bg-dark">
+    <header class="fixed-top inter-regular">
+        <div class="container-fluid ps-0 d-flex no-wrap">
+            <img class="logo" src="./assets/img/LogoPC.svg" alt="Logo Site" href="/index.html">
+            <nav class="navbar container-fluid navbar-dark navbar-expand-lg">
+                <div class="container-fluid bg-secondary ps-3 py-2 gap-4 rounded rounded-2">
+                    <a class="navbar-brand text-uppercase text-light inter-bold ms-1" href="/">
+                        Stats Of
+                        <br>
+                        Legends
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <ul class="navbar-nav collapse navbar-collapse gap-2" id="navbarToggler">
+                        <li>
+                            <a class="nav-link text-light" aria-current="page" href="/">Acceuil</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" href="/equipes">Equipes</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" href="/joueurs">Joueurs</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" href="/ligues">Ligues</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" href="/calendrier">Calendrier</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -7,17 +7,20 @@
     <link rel="stylesheet" href="./assets/css/custom.css">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
-<body class="bg-secondary">
+<body class="bg-dark">
     <header class="fixed-top inter-regular">
-        <div class="container-fluid">
-            <nav class="navbar navbar-dark d-flex flex-inline navbar-expand-md">
-                    <img class="logo position-flex" src="./assets/img/LogoPC.svg" alt="Logo Site" href="/">
-                <div class="container-fluid bg-primary mx-3 ps-3 py-2 gap-4 rounded rounded-2">
+        <div class="container-fluid d-flex no-wrap">
+            <img class="logo" src="./assets/img/LogoPC.svg" alt="Logo Site" href="/index.html">
+            <nav class="navbar container-fluid navbar-dark navbar-expand-lg">
+                <div class="container-fluid bg-secondary mx-3 ps-3 py-2 gap-4 rounded rounded-2">
                     <a class="navbar-brand text-uppercase text-light inter-bold ms-1" href="/">
                         Stats Of
                         <br>
                         Legends
                     </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <ul class="navbar-nav collapse navbar-collapse gap-2" id="navbarToggler">
                         <li>
                             <a class="nav-link text-light" aria-current="page" href="/">Acceuil</a>
@@ -35,9 +38,6 @@
                             <a class="nav-link text-light" href="/calendrier">Calendrier</a>
                         </li>
                     </ul>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                 </div>
             </nav>
         </div>

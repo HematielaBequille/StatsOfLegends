@@ -22,3 +22,19 @@
 .navbar{
     padding: 0;
 }
+
+.custom-section{
+    max-width: 840px;
+    max-height: 420px;
+    padding: 0;
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 2048px;
+    }
+
+    .row{
+        max-width: 2048px;
+    }
+}

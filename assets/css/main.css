@@ -29,16 +29,6 @@
     padding: 0;
 }
 
-@media (min-width: 1400px) {
-    .container{
-        max-width: 2048px;
-    }
-
-    .row{
-        max-width: 2048px;
-    }
-}
-
 .c-table > :not(caption) > * > * {
     padding: 0.2rem 0.2rem;
     color: var(--bs-tertiary, var(--bs-table-color-type, var(--bs-table-color)));
@@ -58,4 +48,14 @@
     max-height: 360px;
     min-width: 400px;
     max-width: 1248px;
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 2048px;
+    }
+
+    .row{
+        max-width: 2048px;
+    }
 }

@@ -35,3 +35,11 @@
 .c-table > :not(caption) > * > *:last-child {
     color: var(--bs-light, var(--bs-table-color-type, var(--bs-table-color)));
 }
+
+.custom-carousel {
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 360px;
+    min-width: 400px;
+    max-width: 1248px;
+}

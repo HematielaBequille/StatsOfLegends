@@ -10,10 +10,11 @@
 <body class="bg-dark">
     <header class="fixed-top inter-regular">
         <div class="container-fluid ps-0 d-flex no-wrap">
-            <img class="logo" src="./assets/img/LogoPC.svg" alt="Logo Site" href="/index.html">
+            <img class="d-none d-md-flex" src="./assets/img/LogoPC.svg" alt="Logo Site">
+            <img class="logo d-flex d-md-none" src="./assets/img/LogoMobile.svg" alt="Logo Site">
             <nav class="navbar container-fluid navbar-dark navbar-expand-lg">
-                <div class="container-fluid bg-secondary ps-3 py-2 gap-4 rounded rounded-2">
-                    <a class="navbar-brand text-uppercase text-light inter-bold ms-1" href="/">
+                <div class="container-fluid bg-secondary ps-3 py-2 gap-1 gap-xxl-3 rounded rounded-2">
+                    <a class="navbar-brand text-uppercase text-light inter-bold ms-1 fs-md" href="/">
                         Stats Of
                         <br>
                         Legends
@@ -21,23 +22,29 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <ul class="navbar-nav collapse navbar-collapse gap-2" id="navbarToggler">
-                        <li>
-                            <a class="nav-link text-light" aria-current="page" href="/">Acceuil</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-light" href="/equipes">Equipes</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-light" href="/joueurs">Joueurs</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-light" href="/ligues">Ligues</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-light" href="/calendrier">Calendrier</a>
-                        </li>
-                    </ul>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarToggler">
+                        <ul class="navbar-nav text-center gap-1 gap-xxl-3">
+                            <li>
+                                <a class="nav-link text-light" aria-current="page" href="/">Accueil</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-light" href="/equipes">Equipes</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-light" href="/joueurs">Joueurs</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-light" href="/ligues">Ligues</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-light" href="/calendrier">Calendrier</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex flex-column wrap flex-lg-row justify-content-center text-center gap-1 gap-xl-2">
+                            <div><button type="button" class="btn btn-primary mx-2 px-3 fs-6 rounded-pill">Connexion</button></div>
+                            <div><button type="button" class="btn btn-info mx-2 px-3 fs-6 text-light rounded-pill">Inscription</button></div>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>

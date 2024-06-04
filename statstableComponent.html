@@ -15,17 +15,19 @@
 <body class="bg-dark">
 
     <!-- STATS TABLE COMPONENT -->
+    <!--TODO changer la couleur du <thead> ; .s-table -->
+    <!-- TODO bordures arrondies-->
     <div class="container m-3">
-        <table class="table table-hover c-table">
-            <thead class="bg-body-dark">
-                <tr class="align-middle">
-                    <th scope="col" class="text-center">#</th>
+        <table class="table table-hover c-table table-responsive mb-1">
+            <thead class="s-table table-dark">
+                <tr class="align-middle s-table">
+                    <th scope="col" class="text-center s-table">#</th>
                     <th scope="col">Summoners</th>
                     <th scope="col" class="text-center">Tier</th>
                     <th scope="col" class="text-center">LP</th>
                     <th scope="col" class="text-center">Most picks</th>
                     <th scope="col" class="text-center">Level</th>
-                    <th scope="col" class="text-center">Winrate</th>
+                    <th scope="col" class="text-center text-">Winrate</th>
                 </tr>
             </thead>
             <tbody class="align-middle">
@@ -36,15 +38,26 @@
                     <td class="text-center">Challenger</td>
                     <td class="text-center">1,318 LP</td>
                     <td class="text-center">
-                        <img src="./assets/img/champs/zed.png" alt="Icône d'un champion" class="img-fluid rounded-circle">
-                        <img src="./assets/img/champs/zed.png" alt="Icône d'un champion" class="img-fluid rounded-circle">
-                        <img src="./assets/img/champs/zed.png" alt="Icône d'un champion" class="img-fluid rounded-circle">
+                        <img src="./assets/img/champs/zed.png" alt="Icône d'un champion"
+                            class="img-fluid rounded-circle">
+                        <img src="./assets/img/champs/zed.png" alt="Icône d'un champion"
+                            class="img-fluid rounded-circle">
+                        <img src="./assets/img/champs/zed.png" alt="Icône d'un champion"
+                            class="img-fluid rounded-circle">
                     </td>
                     <td class="text-center">600</td>
                     <td class="text-center text-info fw-bold">68%</td>
                 </tr>
             </tbody>
         </table>
+
+        <nav aria-label="Pagination">
+            <ul class="pagination justify-content-center bg-secondary">
+                <li class="page-item"><a class="page-link bg-secondary text-light mt-2 rounded border-primary-subtle" href="#">1</a></li>
+                <li class="page-item"><a class="page-link bg-secondary text-light m-2 rounded border-primary-subtle" href="#">2</a></li>
+                <li class="page-item"><a class="page-link bg-secondary text-light mt-2 rounded border-primary-subtle" href="#">3</a></li>
+            </ul>
+        </nav>
     </div>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

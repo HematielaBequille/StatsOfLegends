@@ -10,32 +10,32 @@
     <div class="container pt-5">
         <div class="row justify-content-center mt-5">
             <div class="col-6">
-                <form class="container rounded-4 bg-secondary bg-opacity-75 p-4 mt-4">
-                    <h2 class="d-flex justify-content-center mt-2 mb-4 satisfy-regular">Inscription</h2>
-                    <div class="row mb-4 g-4 align-items-center">
-                        <div class="col-md-4">
-                            <input type="text" id="inputName" class="form-control" placeholder="Votre Nom">
+                <form class="container rounded-4 bg-secondary bg-opacity-75 p-4 mt-4" data-bs-theme="dark">
+                    <h2 class="d-flex justify-content-center mt-2 mb-4 satisfy-regular text-light">Inscription</h2>
+                    <div class="row row-cols-2 g-3 justify-content-center">
+                        <div class="col">
+                            <input type="text" id="inputPhone" class="form-control" placeholder="Votre Téléphone" required>
+                            <span class="ms-2 text-info invalid-feedback">Numéro de téléphone invalide</span>
                         </div>
-                        <div class="col-md-4">
-                            <input type="email" id="inputEmail" class="form-control" placeholder="Votre Email">
+                        <div class="col">
+                            <input type="email" id="inputEmail" class="form-control is-valid" placeholder="Votre Email" required>
+                            <span class="ms-2 text-info invalid-feedback">Adresse email invalide</span>
                         </div>
-                        <div class="col-md-4">
-                            <input type="text" id="inputPhone" class="form-control" placeholder="Votre Téléphone">
+                        <div class="col">
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Mot de passe" required>
+                            <span class="ms-2 text-info invalid-feedback">Mot de passe non sécurisé</span>
+                        </div>
+                        <div class="col">
+                            <input type="password" id="inputConfirmedPassword" class="form-control" placeholder="Confirmation du mot de passe" required>
+                            <span class="ms-2 text-info invalid-feedback">Les mots de passe ne correspondent pas</span>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" id="inputID" class="form-control is-invalid" placeholder="Votre ID Riot" required>
+                            <span class="ms-2 text-info invalid-feedback">ID RIOT invalide</span>
                         </div>
                     </div>
-                    <div class="row g-4 align-items-center">
-                        <div class="col-4">
-                            <input type="text" id="inputDate" class="form-control" placeholder="Date">
-                        </div>
-                        <div class="col-4">
-                            <input type="email" id="inputHeure" class="form-control" placeholder="Heure">
-                        </div>
-                        <div class="col-4">
-                            <input type="text" id="inputPhone" class="form-control" placeholder="Event">
-                        </div>
-                        <div>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Votre Message..." rows="5"></textarea>
-                        </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-info text-light" type="submit">S'inscrire</button>
                     </div>
                 </form>
             </div>

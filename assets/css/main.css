@@ -41,6 +41,11 @@
     color: var(--bs-light, var(--bs-table-color-type, var(--bs-table-color)));
 }
 
+.s-table{
+    color: var(--bs-secondary, var(--bs-table-color-type, var(--bs-table-color)));
+    background-color: var(--bs-primary);
+}
+
 .custom-carousel {
     border-radius: 10px;
     min-height: 200px;

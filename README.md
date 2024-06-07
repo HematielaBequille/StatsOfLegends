@@ -1,5 +1,5 @@
 # StatsOfLegends
 
 
-### Installer Bootstrap
-`npm i bootstrap`
+### Installer les dépendances
+`npm install`

@@ -1,4 +1,5 @@
-@import "../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/functions";
 
 // override vars
 
@@ -9,9 +10,9 @@ $light: #ffffff;
 $dark: #1C1C1F;
 $info : #EA5A11;
 
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/variables-dark";
 
 // code...
 
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

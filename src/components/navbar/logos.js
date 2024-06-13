@@ -1,5 +1,5 @@
-import LogoPC from '../../assets/img/LogoPC.svg';
-import LogoMobile from '../../assets/img/LogoMobile.svg';
+import LogoPC from '../../assets/img/logos/LogoPC.svg';
+import LogoMobile from '../../assets/img/logos/LogoMobile.svg';
 
 export function Logos() {
   return (

@@ -7,12 +7,12 @@ export function Logos() {
       <img
         className="d-none d-md-flex"
         src={LogoPC}
-        alt="Logo Site"
+        alt="Logo du site Stats Of Legends version desktop"
       />
       <img
         className="logo d-flex d-md-none"
         src={LogoMobile}
-        alt="Logo Site"
+        alt="Logo du site Stats Of Legends version mobile"
       />
     </>
   );

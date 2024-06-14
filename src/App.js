@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar/index";
 import Carousel from "./components/carousel";
 import OfTheWeek from "./components/oftheweek";
+import NextGamesCalendar from "./components/nextgamescalendar";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Carousel />
       <OfTheWeek />
+      <NextGamesCalendar />
     </div>
   );
 }
